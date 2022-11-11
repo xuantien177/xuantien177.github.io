@@ -1,24 +1,129 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <p id="text1"></p>
-<p id="text2"></p>
 
-<script>
-// Viết chuỗi văn bản bên trong phần tử HTML
-document.getElementById("text1").innerHTML = "Hello World!";
+<head>
 
-// Viết ra giá trị bên trong phần tử HTML
-var x = 10;
-var y = 20;
-var sum = x + y;
-document.getElementById("text2").innerHTML = sum;
-</script>
-        </script>
-    </body>
+<meta charset="utf-8" />
+
+<style>
+
+article, aside, footer, header, section{
+
+display:block;
+
+text-align:center;
+
+}
+
+#total{
+
+width:900px;
+
+margin:0px auto;
+
+position:relative;
+
+}
+
+#logo, #banner, aside, article, footer, article header{
+
+border:green thin solid;
+
+box-sizing:border-box;
+
+float:left;
+
+}
+
+#logo,#banner,#total > footer{
+
+height:100px;
+
+padding-top:35px;
+
+}
+
+#logo{
+
+width:25%;
+
+}
+
+#banner{
+
+width:75%;
+
+}
+
+aside,article{
+
+height:200px;
+
+}
+
+aside{
+
+width:20%;
+
+padding-top:90px;
+
+}
+
+article{
+
+width:60%;
+
+}
+
+footer{
+
+width:100%;
+
+}
+
+article header,article footer{
+
+width:100%;
+
+height:50px;
+
+padding-top:15px;
+
+}
+
+article article{
+
+width:100%;
+
+height:100px;
+
+padding-top:40px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section id="total">
+
+<header><section id="logo">Header>>Section-Logo</section><section id="banner">Header>>Section-Banner</section></header>
+
+<nav></nav>
+
+<section>
+
+   <aside>Aside</aside><article><header>Article>>Header</header><article>Article-Article</article><footer>Article>>Footer</footer></article><aside>Aside</aside>
+
+</section>
+
+<footer>Footer</footer>
+
+</section>
+
+</body>
+
 </html>
