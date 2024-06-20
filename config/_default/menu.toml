@@ -30,3 +30,11 @@ url = "https://www.linkedin.com/in/xuantien177"
 
 [social.params]
 icon = "brand-linkedin"
+
+[[social]]
+identifier = "facebook"
+name = "Facebook"
+url = "https://www.facebook.com/thomass1707"
+
+[social.params]
+icon = "brand-facebook"
